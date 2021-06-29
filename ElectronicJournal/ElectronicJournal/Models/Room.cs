@@ -8,10 +8,9 @@ namespace ElectronicJournal.Models
     public class Room
     {
         public int ID { get; set; }
-        public IntervalsTime WorkHours { get; set; }
-        public DateTime AllBookedTime { get; private set; }
-        public DateTime AllFreeTime { get; private set; }
-
-
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public DateTime OpenTime { get; set; }
+        public DateTime CloseTime { get; set; }
     }
 }
